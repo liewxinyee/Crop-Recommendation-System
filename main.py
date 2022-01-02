@@ -43,7 +43,7 @@ st.sidebar.write("Current temperature is: {:.2f} °C".format(temp_city))
 st.sidebar.write("Current Humidity      :",hmdt, '%')
 
 
-st.session_state['answer'] = ''
+st.session_state['answer'] = ''!
 
 st.write(st.session_state)
 
