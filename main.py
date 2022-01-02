@@ -24,19 +24,3 @@ home.add_app("Select a Crop", mode.selectCrop)
 
 home.run()
 
-user_api = "feb016b366921fdd8121b7b5c120839a"
-st.sidebar.subheader("Find your city weather here")
-city = st.sidebar.text_input(label="Enter a city Name")
-
-complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+user_api
-api_link = requests.get(complete_api_link)
-api_data = api_link.json()
-
-
-temp_city = ((api_data['main']['temp']) - 273.15)
-hmdt = api_data['main']['humidity']
-date_time = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
-
-st.sidebar.write("Weather Stats for - {}  || {}".format(city.upper(), date_time))
-st.sidebar.write("Current temperature is: {:.2f} °C".format(temp_city))
-st.sidebar.write("Current Humidity      :",hmdt, '%')
