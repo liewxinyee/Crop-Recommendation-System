@@ -42,14 +42,3 @@ st.sidebar.write("Weather Stats for - {}  || {}".format(city.upper(), date_time)
 st.sidebar.write("Current temperature is: {:.2f} °C".format(temp_city))
 st.sidebar.write("Current Humidity      :",hmdt, '%')
 
-
-st.session_state['answer'] = ''!
-
-st.write(st.session_state)
-
-realans = ['', 'abc', 'edf']
-
-if  st.session_state['answer'] in realans:
-    answerStat = "correct"
-elif st.session_state['answer'] not in realans:
-    answerStat = "incorrect"
