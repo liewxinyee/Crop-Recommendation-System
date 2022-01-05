@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-data = pd.read_csv(r'C:\Users\xy\Desktop\CropRecommendation_app\crop_summary.csv')
+data = pd.read_csv(r'crop_summary.csv')
 
 
 def summary(string1,int,string2):
