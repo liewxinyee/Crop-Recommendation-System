@@ -20,7 +20,7 @@ import json
 
 home = SelectMode()
 home.add_app("Input Environmental Factors", mode.envFac)
-home.add_app("Select a Crop", mode.selectCrop)
+#home.add_app("Select a Crop", mode.selectCrop)
 
 home.run()
 
