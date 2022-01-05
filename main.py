@@ -27,7 +27,7 @@ home.run()
 
 user_api = "feb016b366921fdd8121b7b5c120839a"
 st.sidebar.subheader("Find your city weather here")
-city = st.sidebar.text_input(label="Enter a city Name")
+city = st.sidebar.text_input(label="Enter a city Name", value = "Kuala Lumpur")
 
 complete_api_link = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+user_api
 api_link = requests.get(complete_api_link)
