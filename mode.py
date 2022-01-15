@@ -10,7 +10,7 @@ def envFac():
     image = Image.open('background.jpg')
     st.image(image, use_column_width=True)
     st.markdown("""
-    ### This app recommends the most suitable crop for you!👨‍🌾 \nInstructions: Key in the respective values and click the button 'Predict'
+    ### This app recommends the most suitable crop for you!👨‍🌾 \nInstructions: Key in the following values and click the 'Predict' button
     """)
     testing()
 
