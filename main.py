@@ -2,6 +2,8 @@ import streamlit as st
 import hydralit_components as hc
 import mode
 
+st.set_page_config(page_title="Crop Recommendation System",layout='wide',initial_sidebar_state='collapsed',)
+
 # specify the primary menu definition
 menu_data = [
     {'icon': "far fa-copy", 'label':"Overview"},
