@@ -7,7 +7,7 @@ st.set_page_config(page_title="Crop Recommendation System🌱",layout='wide',ini
 # specify the primary menu definition
 menu_data = [
     {'icon': "fa fa-tree", 'label':"Crop Recommendation"},
-    {'icon': "far fa-copy", 'label':"Overview"},
+    {'icon': "far fa-copy", 'label':"Visualizations"},
     {'icon': "fas fa-info-circle", 'label':"About"},
 ]
 
@@ -25,7 +25,7 @@ if (f"{menu_id}") == "Home":
     mode.home()
 elif (f"{menu_id}") == "Crop Recommendation":
     mode.envFac()
-elif (f"{menu_id}") == "Overview":
+elif (f"{menu_id}") == "Visualizations":
     mode.selectCrop()
     mode.graphs()
 elif (f"{menu_id}") == "About":
