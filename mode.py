@@ -10,7 +10,7 @@ def home():
     st.markdown("""
             ### This app recommends the most suitable crop for you!👨‍🌾 
             """)
-    df = pd.read_csv(r'C:\Users\xy\Desktop\CropRecommendation_app\CropRecommendation_Cleaned.csv')
+    df = pd.read_csv(r'CropRecommendation_Cleaned.csv')
     with st.expander("Click to See The Dataset Overview"):
         col1, col2, col3 = st.columns([6, 1, 2])
         with col1:
