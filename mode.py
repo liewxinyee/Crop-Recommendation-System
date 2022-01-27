@@ -18,7 +18,7 @@ def home():
         with col2:
             st.write()
         with col3:
-            st.metric(label="Total Crop Type", value = 22)
+            st.metric(label="Total Crop Type", value = 11)
     image = Image.open('background.jpg')
     st.image(image, use_column_width=True)
 
