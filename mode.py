@@ -81,7 +81,7 @@ def about():
     st.write("This app takes environmental factors including temperature, humidity, rainfall and soil parameters which are the amount of nitrate, phosphorus, calcium and pH value of the soil into consideration to recommend the most suitable crop to the users.")
     st.write("It aims to recommend the most suitable crop according to the given soil factors and climate conditions to the users")
     st.subheader("Documentation📄")
-    st.write("Detailed documentation can be found at https://drive.google.com/file/d/1RfzBFZkyqVqN_hs2DvKbla4mD420-ZoB/view?usp=sharing")
+    st.write("Detailed documentation can be found at https://drive.google.com/file/d/1dshn3v4_-QEO4j789YzIHN6BWNiK_Y2f/view?usp=sharing")
     st.subheader("Dataset Information📊")
     st.write("The dataset used is obtained from Kaggle https://www.kaggle.com/atharvaingle/crop-recommendation-dataset")
     st.subheader("Source Code👇")
